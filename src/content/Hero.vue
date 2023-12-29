@@ -1,5 +1,5 @@
 <template>
-  <section class="ClassName">
+  <section class="ClassName mx-auto rounded-3xl">
     <div class="container px-6 py-16 mx-auto text-center">
       <div class="max-w-3xl mx-auto">
         <h1 class="text-3xl leading-relaxed font-semibold text-gray-800 lg:text-6xl">Hello, Im Zeeta Frontend Developer</h1>
@@ -21,3 +21,4 @@
     top: 2px;
   }
 </style>
+

@@ -1,8 +1,8 @@
 <template>
-  <div class="container mx-auto px-4  mt-60 lg:mt-60">
+  <div class="container mx-auto px-4 mt-60 lg:mt-60">
     <div class="flex flex-col lg:flex-row justify-between items-center mt-12 gap-6">
       <div class="max-w-xs lg:max-w-none">
-        <div class="rounded-lg overflow-hidden mb-4 lg:mb-0 hover:scale-105 duration-100 ">
+        <div class="rounded-lg overflow-hidden mb-4 lg:mb-0 hover:scale-105 duration-100">
           <img src="../assets/img/phoneframe.png" alt="" width="800px" />
         </div>
       </div>
@@ -20,9 +20,9 @@
 </template>
 
 <style scoped>
-@media screen and (max-width:766px) {
+  @media screen and (max-width: 767px) {
     .desk_services {
-        text-align: center;
+      text-align: center;
     }
-}
+  }
 </style>

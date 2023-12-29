@@ -4,7 +4,7 @@
   import Card from "../content/card.vue"
   import "../assets/css/default.css"
   import CardGrid from "../content/gridCard.vue"
-  import Services from '../content/services.vue'
+  import Services from "../content/services.vue"
   import "../assets/css/responsive.css"
 </script>
 <template>
@@ -47,7 +47,7 @@
       <section class="ClassName Hero-section mt-10">
         <Hero />
       </section>
-      
+
       <section id="about" class="ClassName Card-section">
         <Card />
       </section>
@@ -57,7 +57,7 @@
       </section>
 
       <section id="services">
-        <Services/>
+        <Services />
       </section>
 
       <RouterView />
