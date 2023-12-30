@@ -5,6 +5,7 @@
   import "../assets/css/default.css"
   import CardGrid from "../content/gridCard.vue"
   import Services from "../content/services.vue"
+  import CardContent from "../content/cardContent.vue"
   import "../assets/css/responsive.css"
 </script>
 <template>
@@ -58,6 +59,10 @@
 
       <section id="services">
         <Services />
+      </section>
+
+      <section class="card-content mt-60">
+        <CardContent />
       </section>
 
       <RouterView />
