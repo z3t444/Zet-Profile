@@ -18,10 +18,10 @@
               <router-link to="/" class="text-2xl uppercase font-bold">Zeeta</router-link>
             </div>
             <div class="hidden md:flex text-sm font-semibold space-x-6">
-              <a href="#">Home</a>
-              <a href="#about">About</a>
-              <a href="#">Services</a>
-              <router-link to="/contact" class="">Contact</router-link>
+              <a class="hover:scale-95 duration-100" href="#">Home</a>
+              <a class="hover:scale-95 duration-100" href="#about">About</a>
+              <a class="hover:scale-95 duration-100" href="#">Services</a>
+              <router-link to="/contact" class="hover:scale-95 duration-100">Contact</router-link>
             </div>
             <div class="md:hidden">
               <button @click="isOpen = !isOpen" class="block focus:outline-none">
@@ -35,12 +35,12 @@
             </div>
           </div>
         </div>
-        <div class="md:hidden" :class="{ block: isOpen, hidden: !isOpen }">
+        <div class="md:hidden mt-2" :class="{ block: isOpen, hidden: !isOpen }">
           <div class="px-2 pt-2 pb-4 flex flex-col font-medium text-sm">
-            <a href="#">Home</a>
-            <a href="#about" class="mt-2">About</a>
-            <a href="#" class="mt-2">Services</a>
-            <router-link to="/contact" class="mt-2">Contact</router-link>
+            <a class="hover:scale-95 duration-100" href="#">Home</a>
+            <a class="hover:scale-95 duration-100 mt-3" href="#about">About</a>
+            <a class="hover:scale-95 duration-100 mt-3" href="#">Services</a>
+            <router-link to="/contact" class="mt-3 hover:scale-95 duration-100">Contact</router-link>
           </div>
         </div>
       </nav>
