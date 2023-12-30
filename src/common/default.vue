@@ -46,37 +46,44 @@
           </div>
         </div>
       </nav>
-      <!-- //start Content -->
       <section class="ClassName Hero-section mt-10">
-        <Hero></Hero>
+        <div class="ClassName">
+          <Hero></Hero>
+        </div>
       </section>
       <section id="about" class="ClassName Card-section">
-        <Card></Card>
+        <div class="ClassName">
+          <Card></Card>
+        </div>
       </section>
       <section class="ClassName mt-60">
-        <CardGrid></CardGrid>
+        <div class="ClassName">
+          <CardGrid></CardGrid>
+        </div>
       </section>
       <section id="services">
-        <Services></Services>
+        <div class="ClassName">
+          <Services></Services>
+        </div>
       </section>
       <section class="card-content mt-60">
-        <CardContent></CardContent>
+        <div class="ClassName">
+          <CardContent></CardContent>
+        </div>
       </section>
       <section class="ClassName mt-40">
-        <Contact> </Contact>
+        <div class="ClassName">
+          <Contact> </Contact>
+        </div>
       </section>
       <section class="ClassName mt-40">
-        <Footer></Footer>
+        <div class="ClassName">
+          <Footer></Footer>
+        </div>
       </section>
     </div>
   </div>
 </template>
-<style scoped>
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-  .Poppins {
-    font-family: "Poppins", sans-serif;
-  }
-</style>
 
 <script>
   export default {

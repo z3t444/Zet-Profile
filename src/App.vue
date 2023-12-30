@@ -1,9 +1,15 @@
 <script setup>
   import Default from "./common/default.vue"
-  import './assets/css/responsive.css'
+  import "./assets/css/responsive.css"
 </script>
 <template>
-  <div class="App p-20">
-    <Default/>
+  <div class="App p-20 Poppins">
+    <Default />
   </div>
 </template>
+<style scoped>
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  .Poppins {
+    font-family: "Poppins", sans-serif;
+  }
+</style>
