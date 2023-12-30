@@ -2,7 +2,7 @@
   <div class="container mx-auto px-4 mt-60 lg:mt-60">
     <div class="flex flex-col lg:flex-row justify-between items-center mt-12 gap-6">
       <div class="max-w-xs lg:max-w-none">
-        <div class="rounded-lg overflow-hidden mb-4 lg:mb-0 hover:scale-105 duration-100">
+        <div class="rounded-lg overflow-hidden mb-4 lg:mb-0 hover:scale-105 duration-100 animate-up-down">
           <img src="../assets/img/phoneframe.png" alt="" width="800px" />
         </div>
       </div>
@@ -24,5 +24,21 @@
     .desk_services {
       text-align: center;
     }
+  }
+
+  @keyframes up-down {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .animate-up-down {
+    animation: up-down 2s infinite;
   }
 </style>
