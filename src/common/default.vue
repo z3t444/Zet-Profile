@@ -1,5 +1,4 @@
 <script setup>
-  import { RouterView } from "vue-router"
   import Hero from "../content/Hero.vue"
   import Card from "../content/card.vue"
   import "../assets/css/default.css"
@@ -24,7 +23,7 @@
               <a class="hover:scale-95 duration-100" href="#">Home</a>
               <a class="hover:scale-95 duration-100" href="#about">About</a>
               <a class="hover:scale-95 duration-100" href="#">Services</a>
-              <router-link to="/contact" class="hover:scale-95 duration-100">Contact</router-link>
+              <a class="hover:scale-95 duration-100" href="#contact">Contact</a>
             </div>
             <div class="md:hidden">
               <button @click="isOpen = !isOpen" class="block focus:outline-none">
@@ -43,7 +42,7 @@
             <a class="hover:scale-95 duration-100" href="#">Home</a>
             <a class="hover:scale-95 duration-100 mt-3" href="#about">About</a>
             <a class="hover:scale-95 duration-100 mt-3" href="#">Services</a>
-            <router-link to="/contact" class="mt-3 hover:scale-95 duration-100">Contact</router-link>
+            <a class="hover:scale-95 duration-100 mt-3" href="#contact">Contact</a>
           </div>
         </div>
       </nav>
@@ -63,14 +62,12 @@
       <section class="card-content mt-60">
         <CardContent></CardContent>
       </section>
-      <section class="contact-content mt-20">
-        <Contact></Contact>
+      <section class="ClassName mt-40">
+        <Contact> </Contact>
       </section>
-      <section class="mt-20">
+      <section class="ClassName mt-40">
         <Footer></Footer>
       </section>
-
-      <RouterView />
     </div>
   </div>
 </template>

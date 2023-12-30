@@ -7,7 +7,7 @@
           <h4 class="text-2xl font-medium mt-2">Zeeta Developer</h4>
         </div>
 
-        <p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">Copyright &copy; 2022. All rights reserved.</p>
+        <p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">Copyright &copy; 2023. Zeeta Developer</p>
       </div>
     </div>
   </footer>
