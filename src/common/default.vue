@@ -6,6 +6,9 @@
   import CardGrid from "../content/gridCard.vue"
   import Services from "../content/services.vue"
   import CardContent from "../content/cardContent.vue"
+  import Contact from "../content/contact.vue"
+  import Footer from "../content/footer.vue"
+  // //css import file
   import "../assets/css/responsive.css"
 </script>
 <template>
@@ -46,23 +49,25 @@
       </nav>
       <!-- //start Content -->
       <section class="ClassName Hero-section mt-10">
-        <Hero />
+        <Hero></Hero>
       </section>
-
       <section id="about" class="ClassName Card-section">
-        <Card />
+        <Card></Card>
       </section>
-
       <section class="ClassName mt-60">
-        <CardGrid />
+        <CardGrid></CardGrid>
       </section>
-
       <section id="services">
-        <Services />
+        <Services></Services>
       </section>
-
       <section class="card-content mt-60">
-        <CardContent />
+        <CardContent></CardContent>
+      </section>
+      <section class="contact-content mt-20">
+        <Contact></Contact>
+      </section>
+      <section class="mt-20">
+        <Footer></Footer>
       </section>
 
       <RouterView />
