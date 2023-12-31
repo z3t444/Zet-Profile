@@ -3,7 +3,7 @@
     <div class="flex flex-col lg:flex-row justify-between items-center mt-12 gap-6">
       <div class="max-w-xs lg:max-w-none">
         <div class="rounded-lg overflow-hidden mb-4 lg:mb-0 hover:scale-105 duration-100 animate-up-down">
-          <img src="../assets/img/phoneframe.png" alt="" width="800px" />
+          <img src="../assets/img/phoneframecompres.png" alt="" width="800px" />
         </div>
       </div>
       <div class="w-full lg:w-1/2 desk_services">
